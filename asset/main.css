@@ -553,6 +553,7 @@ a {
 .news-events__button-next:hover {
   background: #2e80ce;
   color: #ffffff;
+  transition: 0.25s;
 }
 .news-events__button-next {
   display: flex;
