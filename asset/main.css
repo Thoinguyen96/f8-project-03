@@ -397,7 +397,10 @@ a {
   display: flex;
   gap: 30px;
 }
-
+.virtual-dentist__item:hover .virtual-dentist__image {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
 .virtual-dentist__item {
   width: 270px;
   height: 384px;
@@ -412,6 +415,7 @@ a {
   position: relative;
 }
 .virtual-dentist__image-member {
+  display: block;
   position: absolute;
   width: 262px;
   height: 290px;
