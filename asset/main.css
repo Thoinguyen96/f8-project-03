@@ -446,6 +446,7 @@ a {
   gap: 18px;
 }
 .virtual-dentist__page-next:hover {
+  transition: 0.25s;
   background: #2e80ce;
   color: #ffffff;
 }
@@ -547,6 +548,7 @@ a {
   font-size: 1.8rem;
   line-height: 156%;
   text-decoration-line: underline;
+  text-underline-offset: 4px;
   color: #10375c;
 }
 
@@ -760,6 +762,7 @@ a {
 }
 .footer__wrap-list-social-icon:hover {
   background: #2e80ce;
+  transition: 0.25s;
 }
 .footer__wrap-list-social-icon {
   display: flex;
