@@ -32,14 +32,11 @@ html {
 a {
   text-decoration: none;
 }
-.grid {
-  margin: 0 auto;
-  max-width: 1170px;
-  width: calc(100%-48px);
-}
+
 /* heading  */
 
 .heading {
+  width: 100%;
   background: #10375c;
 }
 .cervices__content-desc {
