@@ -68,7 +68,7 @@
         text-align: center;
     }
     .cervices__content {
-        width: 400px;
+        width: 100%;
     }
     .desc {
         font-size: 1.6rem;
@@ -83,7 +83,7 @@
     }
     .description-work-wrap {
         padding-top: 0;
-        width: 400px;
+        width: 100%;
     }
     .description__procedure-list {
         justify-content: center;
