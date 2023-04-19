@@ -17,12 +17,18 @@
     .hide-on-mobile {
         display: none;
     }
+    .virtual-dentist__our {
+        margin: 50px 0;
+    }
     .Exceptional__item-img {
         margin-top: 110px;
     }
+
     .Exceptional {
-        margin: 0 15px;
+        text-align: center;
+        padding: 0 15px;
     }
+
     .Exceptional__item-content {
         font-size: 5rem;
         margin: 0;
@@ -31,6 +37,9 @@
     }
     .heading__info-content {
         display: none;
+    }
+    .footer__wrap {
+        padding: 15px 0;
     }
     .heading__info {
         display: flex;
@@ -45,6 +54,7 @@
         display: block;
         margin: 25px 0;
     }
+
     .Exceptional__item-contact {
         text-align: center;
     }
@@ -68,7 +78,7 @@
         text-align: left;
     }
     .description-work {
-        margin-top: 0;
+        margin: 0;
         text-align: center;
     }
     .description-work-wrap {
@@ -91,15 +101,22 @@
     }
 
     .feature__img-above {
-        text-align: left;
-        width: 260px;
-        height: 315px;
+        display: none;
+    }
+    .feature__img {
+        width: 0;
+    }
+    .Exceptional__item-img-small {
+        display: none;
+    }
+    .Exceptional__item-img-pig {
+        width: 372px;
     }
     .feature__img-below {
         width: 300px;
         height: 285px;
         top: 158px;
-        left: 89px;
+        left: 43px;
     }
     .virtual-dentist__item {
         padding-bottom: 50px;
@@ -147,8 +164,8 @@
     .welcoming-batients-new {
         font-size: 4rem;
     }
-    .footer__wrap {
-        margin: 0 5px;
+    .footer {
+        padding: 0 5px;
     }
     .footer__wrap-list:nth-child(2),
     .footer__wrap-list:first-child {
@@ -171,5 +188,10 @@
     }
     .footer__desc-end {
         font-size: 1.3rem;
+    }
+    .Exceptional__item {
+        margin: 0;
+        width: 360px;
+        padding-top: 30px;
     }
 }

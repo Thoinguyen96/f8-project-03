@@ -17,6 +17,10 @@ html {
     font-size: 1.8rem;
     line-height: 167%;
 }
+.btn:hover {
+    opacity: 0.8;
+}
+
 .btn {
     display: inline-block;
     width: 205px;
